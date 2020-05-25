@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+   }
+
+div {
+color: red;
+}
+
+.header{
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;   
+    height: 90px;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.avatar {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+
+    list-style: none;
+}
+
+.links{
+    display: flex;
+
+}
+
+.links-item{
+    margin-right: 20px;
+
+}
+
+.links-item:last-child{
+    margin-right: 0px;
+}
+
+.link{
+    color: gray;
+    text-decoration: none;
+    transition: all ease-in-out .3s;
+    
+}
+
+.link:hover{
+    color: black
+}
