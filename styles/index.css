@@ -1,19 +1,30 @@
-body{
+*{
     margin: 0px;
+    box-sizing: border-box;
    }
+ html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}   
 
 div {
-color: red;
+
 }
 
 .header{
-    border-bottom: 1px solid gray;
+    position: fixed;
+    left: 0px;
+    top: 0px;
     display: flex;
     justify-content: space-between;   
     height: 90px;
     align-items: center;
     padding-left: 50px;
     padding-right: 50px;
+    height: 60px;
+    width: 100%;
 }
 
 .avatar {
@@ -52,4 +63,71 @@ ul{
 
 .link:hover{
     color: black
+}
+/* MAIN STYLES */
+.content{
+    flex: 1;
+    margin-top: 90px;
+    position: relative;
+}
+.footer{
+    background-color: black;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text{
+    color:rgb(255, 255, 255) ;
+}
+.footer-heart{
+    color: red;
+    
+}
+.general-info{
+    height: 100%;
+    background-color: white;
+}
+.HighLihten{
+    height: 100%;
+    background-color: rgba(51, 115, 119, 0.288);
+    width: 50%;
+}
+
+.info-block{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    transform: translate(-50%, -50%);
+    }
+
+.info_block_name{
+    color: black;
+    font-weight: bold;
+    font-size:  32px;
+
+    display: block;
+    margin-bottom: 0px;
+}
+
+
+.info_block_greeting{
+    color: rgb(7, 133, 165);
+    font-weight: bolder;
+    
+
+}
+
+.info_block_professions{
+    color: rgb(69, 113, 124);
+    font-weight: bolder;
+    text-decoration: underline;
+
 }
