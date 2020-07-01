@@ -28,8 +28,8 @@ div {
 }
 
 .avatar {
-    height: 25px;
-    width: 25px;
+    height: 60x;
+    width: 60px;    
     border-radius: 50%;
 }
 
@@ -71,7 +71,7 @@ ul{
     position: relative;
 }
 .footer{
-    background-color: black;
+    background-color: rgb(24, 23, 23);
     height: 60px;
 
     display: flex;
